@@ -1,0 +1,14 @@
+<?php
+    header("Content-Type: application/json");
+    header("Acces-Control-Allow-Origin: *");
+
+    $usuario=[
+        ["id" => 1, "nombre" => "Jonathan Horus", "correo" => "horuselpro@gmail.com"],
+        ["id" => 1, "nombre" => "David Lopez", "correo" => "Eldavid@gmail.com"],
+        ["id" => 1, "nombre" => "Angel Preciado", "correo" => "Langel.moya1208@gmail.com"],
+
+    ];
+
+    echo json_encode($usuario);
+
+?>
